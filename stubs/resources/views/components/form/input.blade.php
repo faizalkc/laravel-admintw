@@ -27,6 +27,7 @@
     @endif
     <div class="rounded-md shadow-sm">
         <input
+            wire:model="{{$name}}"            
             type="{{ $type }}"
             id="{{ $name }}"
             name="{{ $name }}"
